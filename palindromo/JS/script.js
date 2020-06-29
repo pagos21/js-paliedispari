@@ -13,13 +13,13 @@ function reverseFun(p1){
 
 // Modalità con For
 
-// function reverseStringWithFor(p1) {
-//     var emptyStr = "";
-//     for (var i = p1.length - 1; i >= 0; i--) {
-//         emptyStr += p1[i];
-//     }
-//     return emptyStr;
-// }
+function reverseStringWithFor(p1) {
+    var emptyStr = "";
+    for (var i = p1.length - 1; i >= 0; i--) {
+        emptyStr += p1[i];
+    }
+    return emptyStr;
+}
 
 
 btn.addEventListener("click", function(){
