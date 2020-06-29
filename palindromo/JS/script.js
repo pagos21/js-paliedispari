@@ -13,10 +13,10 @@ function reverseFun(p1){
 
 // Modalità con For
 
-// function reverseStringWithFor(str) {
-//     var newString = "";
-//     for (var i = str.length - 1; i >= 0; i--) {
-//         newString += str[i];
+// function reverseStringWithFor(p1) {
+//     var emptyStr = "";
+//     for (var i = p1.length - 1; i >= 0; i--) {
+//         emptyStr += str[i];
 //     }
 //     return newString;
 // }
