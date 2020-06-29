@@ -29,6 +29,4 @@ btn.addEventListener("click", function(){
   } else {
     console.log("CPU Won!");
   }
-
-
 });
