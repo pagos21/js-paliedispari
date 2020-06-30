@@ -13,7 +13,7 @@ function sumF(num1, num2){
 btn.addEventListener("click", function(){
   var input = parseInt(document.getElementById("input").value);
   if (isNaN(input) || /\s/.test(input) || input > 5) {
-    alert("Non hai inserito un numero valido!")
+    alert("Non hai inserito un numero valido!");
     throw new Error("Non hai inserito un numero valido!");
   }
 

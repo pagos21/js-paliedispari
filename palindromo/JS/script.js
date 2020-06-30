@@ -10,9 +10,7 @@ function reverseFun(p1){
   return p1.split("").reverse().join("");
 }
 
-
 // Modalità con For
-
 function reverseStringWithFor(p1) {
     var emptyStr = "";
     for (var i = p1.length - 1; i >= 0; i--) {
@@ -23,9 +21,7 @@ function reverseStringWithFor(p1) {
 
 
 btn.addEventListener("click", function(){
-
   var input = document.getElementById("input").value;
-
   if (input === reverseFun(input)){
     console.log("Yes! " + input + " è palindromo!");
   }
